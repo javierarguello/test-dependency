@@ -7,6 +7,7 @@
     "start": "node ./dist/index.js",
     "build": "tsc --build"
   },
+  "pre-commit": ["build"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/javierarguello/test-dependency.git"
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/javierarguello/test-dependency#readme",
   "devDependencies": {
+    "pre-commit": "^1.2.2",
     "typescript": "^5.0.4"
   }
 }
